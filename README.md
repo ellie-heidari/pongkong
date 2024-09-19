@@ -6,9 +6,9 @@ this source code, or at https://www.gnu.org/licenses/gpl-3.0.en.html.
 
 ## About 
 
-This is a simple pong game written in C using the sdl2 library.
-It will evolve over time to add more features.
-It is only built and tested in a Linux system.
+- This is a simple pong game written in C using the sdl2 library.
+- It will evolve over time to add more features.
+- It is only built and tested in a Linux system.
 
 ## Building 
 
