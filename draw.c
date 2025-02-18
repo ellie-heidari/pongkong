@@ -93,14 +93,14 @@ void updatePlayers(float elapsedTime) {
 	}
 
 	/** player 1 goes up */
-	if (keyboardstate[SDL_SCANCODE_W] &&
+	if (keyboardstate[SDL_SCANCODE_R] &&
 			player1.yPosition > PLAYER_HEIGHT / 2.0) {
 
 		player1.yPosition -= PLAYER_SPEED * elapsedTime;
 	}
 
 	/** player 1 goes down */
-	if (keyboardstate[SDL_SCANCODE_S] &&
+	if (keyboardstate[SDL_SCANCODE_H] &&
 			player1.yPosition < WINDOW_HEIGHT - PLAYER_HEIGHT / 2.0) {
 
 		player1.yPosition += PLAYER_SPEED * elapsedTime;
@@ -114,7 +114,7 @@ void updatePlayers(float elapsedTime) {
 	}
 
 	/** player 2 goes down */
-	if (keyboardstate[SDL_SCANCODE_J] &&
+	if (keyboardstate[SDL_SCANCODE_E] &&
 			player2.yPosition < WINDOW_HEIGHT - PLAYER_HEIGHT / 2.0) {
 
 		player2.yPosition += PLAYER_SPEED * elapsedTime;

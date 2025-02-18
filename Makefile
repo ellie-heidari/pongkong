@@ -18,16 +18,15 @@
 #------------------------------------------------------------------------------
 ## Use: make [TARGET] 
 ## Build Targets:
-##      all:  compiles all source files without linking them.
-##      clean:  removes all generated files.
-##      variables:    Print variables.
+##      all: compiles all source files without linking them.
+##      clean: removes all generated files.
+##      variables: Print variables.
 ##      help: shows all TARGET options.
 #------------------------------------------------------------------------------
 
 
 # set the  compiler variable
 CC = gcc 
-
 
 # set the compiler flags var
 #
@@ -40,14 +39,11 @@ CFLAGS = `pkg-config sdl2 --libs --cflags` -g -O0 --std=c99 -Wall -Werror
 # add source files here
 SRCS = main.c init.c init_objs.c input.c draw.c
 
-
 # generate name of object files
 OBJS = $(SRCS:.c=.o)
 
-
 # name of executable
 EXEC = pongkong
-
 
 # default recipe
 .PHONY : all
@@ -62,7 +58,6 @@ $(EXEC).out: $(OBJS)
 variables:
 	@echo SOURCE_FILES: $(SRCS)
 	@echo OBJ_FILES: $(OBJS)
-
 
 # clean the workspace
 .PHONY: clean

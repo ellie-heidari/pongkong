@@ -17,24 +17,24 @@ this source code, or at https://www.gnu.org/licenses/gpl-3.0.en.html.
 
 ## Generating compile-command.json[Optional]
 
-using the `bear` tool in the `scan-build` package one can generate 
+Using the `bear` tool in the `scan-build` package one can generate 
 the compile-commands.json file.
 
-```
+```bash
 pip install scan-build
 
 ```
 
-Then do `make clean` before using the `bear` as follows:  
+Then do `make clean` before using the `bear` as follows:
 
-```
+```bash
 bear -- make
 
 ```
 
 ## Playing
 
-- To run the game(in terminal): ./pongkong.out
+- To run the game(in terminal): `./pongkong.out`
 - To start the game use the space key. 
 - Left Player: Up(W), Down(S)
 - Right Player: Up(U), Down(J)
@@ -49,4 +49,3 @@ bear -- make
 This software is provided "as is", without any express or implied warranties. 
 In no event shall the authors be liable for any damages arising from the use 
 of this software.
-
