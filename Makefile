@@ -24,7 +24,6 @@
 ##      help: shows all TARGET options.
 #------------------------------------------------------------------------------
 
-
 # set the  compiler variable
 CC = gcc 
 
@@ -35,9 +34,8 @@ CC = gcc
 
 CFLAGS = `pkg-config sdl2 --libs --cflags` -g -O0 --std=c99 -Wall -Werror
 
-
 # add source files here
-SRCS = main.c init.c init_objs.c input.c draw.c
+SRCS = ./src/main.c ./src/init.c ./src/init_objs.c ./src/input.c ./src/draw.c
 
 # generate name of object files
 OBJS = $(SRCS:.c=.o)
@@ -47,14 +45,15 @@ EXEC = pongkong
 
 # default recipe
 .PHONY : all
-all: $(EXEC).out
+all: $(EXEC)
 
 # recipe for building the final exe
-$(EXEC).out: $(OBJS)  
-	$(CC) $(OBJS) $(CFLAGS) -o $@
+$(EXEC): $(OBJS)  
+	$(CC) $(OBJS) $(CFLAGS) -o ./build/$@
+	mv ./src/*.o ./build/artifacts/
 
-# variables   : Print variables.
-.PHONY : variables
+# variables: Print variables.
+.PHONY: variables
 variables:
 	@echo SOURCE_FILES: $(SRCS)
 	@echo OBJ_FILES: $(OBJS)
@@ -62,11 +61,11 @@ variables:
 # clean the workspace
 .PHONY: clean
 clean: 
-	rm -f $(OBJS)
+	rm -f ./build/artifacts/*.o
 	rm -f compile_commands.json 
-	rm -f $(EXEC).out
+	rm -f ./build/$(EXEC)
 
-.PHONY : help
-help : Makefile
+.PHONY: help
+help: Makefile
 		@sed -n 's/^##//p' $<
 
