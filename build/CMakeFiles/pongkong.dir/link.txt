@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/pongkong.dir/src/draw.c.o CMakeFiles/pongkong.dir/src/init.c.o CMakeFiles/pongkong.dir/src/init_objs.c.o CMakeFiles/pongkong.dir/src/input.c.o CMakeFiles/pongkong.dir/src/main.c.o -o pongkong  /usr/local/lib/libSDL2.so 

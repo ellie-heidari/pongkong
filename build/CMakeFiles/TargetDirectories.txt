@@ -1,0 +1,3 @@
+/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles/pongkong.dir
+/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles/edit_cache.dir
+/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles/rebuild_cache.dir
