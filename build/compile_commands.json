@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/draw.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c",
+  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/init.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/init.c",
+  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/init.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/init_objs.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c",
+  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/input.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/input.c",
+  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/input.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/main.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/main.c",
+  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/main.c"
+}
+]

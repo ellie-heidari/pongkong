@@ -12,32 +12,27 @@ It is only built and tested in a Linux system.
 
 ## Building 
 
-- Use the Makefile to build the executable: `make TARGET`
-- To get a list of all options for TARGET: `make help` 
+To build the game inside the build direcotry you can do:
+
+```
+cmake ..
+make
+```
 
 ## Generating compile-command.json[Optional]
 
-Using the `bear` tool in the `scan-build` package one can generate 
-the compile-commands.json file.
-
 ```bash
-pip install scan-build
-
-```
-
-Then do `make clean` before using the `bear` as follows:
-
-```bash
-bear -- make
-
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES ..
 ```
 
 ## Playing
 
-- To run the game(in terminal): `./pongkong.out`
+Currently following holds:
+
+- To run the game: `./pongkong.out`
 - To start the game use the space key. 
-- Left Player: Up(W), Down(S)
-- Right Player: Up(U), Down(J)
+- Left Player: r >> Up, h >> Down
+- Right Player: u >> Up, e >> Down
 
 ## - TODO:  <19-09-24, Alireza Heidari> -
 
