@@ -16,30 +16,37 @@
  */
 
 /**
- * @file input.c
- * @brief 
- * <Add Extended Description Here>
+ * @file defs.h
+ * @brief Macros related to window, background Ball rectangle, etc...
  * @author Alireza Heidari
- * @date 08 2024
- *
+ * @date 08 2022
  */
 
-#include "input.h"
-#include "common.h"
 
-extern bool isRunning;
+#ifndef __DEFS_H__
+#define __DEFS_H__
 
-void doInput(void) {
-	SDL_Event	event;
+#define WINDOW_WIDTH 1280
+#define WINDOW_HEIGHT 640
 
-	while (SDL_PollEvent(&event)) {
-		switch (event.type) {
-			case SDL_QUIT:
-				isRunning = false;
-				break;
-			default:
-				break;
-		}
-	}
-}
+#define BACKGROUND_RED 43
+#define BACKGROUND_GREEN 84
+#define BACKGROUND_BLUE 108
+#define BACKGROUND_ALPHA 255
 
+#define BALL_RED 255
+#define BALL_GREEN 255
+#define BALL_BLUE 255
+#define BALL_ALPHA 255
+#define BALL_SIZE 8
+
+#define PLAYER_RED 240
+#define PLAYER_GREEN 234
+#define PLAYER_BLUE 236
+#define PLAYER_ALPHA 255
+
+#define PLAYER_WIDTH 10
+#define PLAYER_HEIGHT 80
+#define PLAYER_MARGIN 20
+
+#endif /* __DEFS_H__ */

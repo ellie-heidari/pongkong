@@ -16,30 +16,18 @@
  */
 
 /**
- * @file input.c
- * @brief 
- * <Add Extended Description Here>
+ * @file input.h
+ * @brief Declarations of functions  
  * @author Alireza Heidari
- * @date 08 2024
- *
+ * @date 08 2022
  */
 
-#include "input.h"
-#include "common.h"
 
-extern bool isRunning;
+#ifndef __INPUT_H__ 
+#define __INPUT_H__ 
 
-void doInput(void) {
-	SDL_Event	event;
+/* Add Declarations and Function Comments here */
 
-	while (SDL_PollEvent(&event)) {
-		switch (event.type) {
-			case SDL_QUIT:
-				isRunning = false;
-				break;
-			default:
-				break;
-		}
-	}
-}
+void doInput(void);
+#endif /* __INPUT_H__ */
 

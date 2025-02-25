@@ -38,6 +38,7 @@ Ball ball;
 Player player1;
 Player player2;
 
+bool isRunning = true; 
 float frameElapsedSecond;
 bool served = false;
 const float	PLAYER_SPEED = 300.0f;
@@ -61,6 +62,7 @@ int main() {
 
 	lastTickMiliSecond = SDL_GetTicks();
 
+
 	while (true) {
 		doInput();
 
@@ -70,7 +72,14 @@ int main() {
 
 		update(frameElapsedSecond);
 		lastTickMiliSecond = currTickMiliSesond;
+		if(!isRunning)
+		{
+			break;
+		}
 	}
 
+
+	cleanup();
+	SDL_Quit();
 	return 0;
 }

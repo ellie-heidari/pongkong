@@ -16,30 +16,20 @@
  */
 
 /**
- * @file input.c
- * @brief 
- * <Add Extended Description Here>
+ * @file init_objs.h
+ * @brief declarations of functions that initialize the game objects 
  * @author Alireza Heidari
- * @date 08 2024
- *
+ * @date 08 2022
  */
 
-#include "input.h"
+
+#ifndef __INIT_OBJS_H__
+#define __INIT_OBJS_H__ 
+
 #include "common.h"
 
-extern bool isRunning;
+bool coinFlip(void);
+Ball makeBall(int size); 
+Player	makePlayer(void);
 
-void doInput(void) {
-	SDL_Event	event;
-
-	while (SDL_PollEvent(&event)) {
-		switch (event.type) {
-			case SDL_QUIT:
-				isRunning = false;
-				break;
-			default:
-				break;
-		}
-	}
-}
-
+#endif /*__INIT_OBJS_H__ */ 

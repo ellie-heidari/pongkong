@@ -16,30 +16,33 @@
  */
 
 /**
- * @file input.c
- * @brief 
- * <Add Extended Description Here>
- * @author Alireza Heidari
- * @date 08 2024
- *
+ * @file init.h 
+ * @brief initialization of the sdl librariy and cleanup  
+ * @author Alireza Heidari 
+ * @date 08 2022 
  */
 
-#include "input.h"
-#include "common.h"
 
-extern bool isRunning;
+#ifndef __INIT_H__
+#define __INIT_H__
 
-void doInput(void) {
-	SDL_Event	event;
+/* Add Declarations and Function Comments here */ 
 
-	while (SDL_PollEvent(&event)) {
-		switch (event.type) {
-			case SDL_QUIT:
-				isRunning = false;
-				break;
-			default:
-				break;
-		}
-	}
-}
+/**
+ * @brief <Add Brief Description of Function Here>
+ *
+ * <Add Extended Description Here>
+ *
+ * @param <Add InputName> <add description here>
+ * @param <Add InputName> <add description here>
+ * @param <Add InputName> <add description here>
+ * @param <Add InputName> <add description here>
+ *
+ * @return <Add Return Informaiton here>
+ */
 
+void initSDL(void);
+
+void cleanup(void);
+
+#endif /* __INIT_H__ */

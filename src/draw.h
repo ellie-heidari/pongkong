@@ -16,30 +16,23 @@
  */
 
 /**
- * @file input.c
- * @brief 
- * <Add Extended Description Here>
+ * @file draw.h
+ * @brief contains declarations of functions related to rendering and updating 
  * @author Alireza Heidari
- * @date 08 2024
- *
+ * @date 08 2022
  */
 
-#include "input.h"
+
+#ifndef __DRAW_H__
+#define __DRAW_H__
+
 #include "common.h"
 
-extern bool isRunning;
+void update(float elapsedTime);
+void updateBall(Ball *ball, float elapsedTime);
+void updatePlayers(float elapsedTime);
+void updateScore(int player, int points);
+void renderBall(Ball *ball);
+void renderPlayers(void); 
 
-void doInput(void) {
-	SDL_Event	event;
-
-	while (SDL_PollEvent(&event)) {
-		switch (event.type) {
-			case SDL_QUIT:
-				isRunning = false;
-				break;
-			default:
-				break;
-		}
-	}
-}
-
+#endif /* __DRAW_H__ */

@@ -16,30 +16,29 @@
  */
 
 /**
- * @file input.c
- * @brief 
- * <Add Extended Description Here>
+ * @file common.h
+ * @brief contains a list of all header files that are used by all sources
  * @author Alireza Heidari
- * @date 08 2024
- *
+ * @date 08 2022
  */
 
-#include "input.h"
-#include "common.h"
+#ifndef __COMMON_H__
+#define __COMMON_H__
 
-extern bool isRunning;
+/* Add Declarations and Function Comments here */
 
-void doInput(void) {
-	SDL_Event	event;
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_timer.h>
 
-	while (SDL_PollEvent(&event)) {
-		switch (event.type) {
-			case SDL_QUIT:
-				isRunning = false;
-				break;
-			default:
-				break;
-		}
-	}
-}
+#include <math.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#include "defs.h"
+#include "structs.h"
+
+#endif /* __COMMON_H__ */
 
