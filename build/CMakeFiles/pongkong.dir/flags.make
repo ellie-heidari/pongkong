@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2
+C_INCLUDES = -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2
 
 C_FLAGS = -std=gnu11
 

@@ -57,10 +57,10 @@ RM = /home/alireza/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alireza/Documents/cLangPractice/games/pongkong
+CMAKE_SOURCE_DIR = /home/alireza/Documents/cLangPractice/myGames/pongkong
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alireza/Documents/cLangPractice/games/pongkong/build
+CMAKE_BINARY_DIR = /home/alireza/Documents/cLangPractice/myGames/pongkong/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles /home/alireza/Documents/cLangPractice/games/pongkong/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles /home/alireza/Documents/cLangPractice/myGames/pongkong/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,54 @@ src/draw.s: src/draw.c.s
 src/draw.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/draw.c.s
 .PHONY : src/draw.c.s
+
+src/entity.o: src/entity.c.o
+.PHONY : src/entity.o
+
+# target to build an object file
+src/entity.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/entity.c.o
+.PHONY : src/entity.c.o
+
+src/entity.i: src/entity.c.i
+.PHONY : src/entity.i
+
+# target to preprocess a source file
+src/entity.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/entity.c.i
+.PHONY : src/entity.c.i
+
+src/entity.s: src/entity.c.s
+.PHONY : src/entity.s
+
+# target to generate assembly for a file
+src/entity.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/entity.c.s
+.PHONY : src/entity.c.s
+
+src/game.o: src/game.c.o
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/game.c.o
+.PHONY : src/game.c.o
+
+src/game.i: src/game.c.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/game.c.i
+.PHONY : src/game.c.i
+
+src/game.s: src/game.c.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/game.c.s
+.PHONY : src/game.c.s
 
 src/init.o: src/init.c.o
 .PHONY : src/init.o
@@ -249,6 +297,78 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/physics.o: src/physics.c.o
+.PHONY : src/physics.o
+
+# target to build an object file
+src/physics.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/physics.c.o
+.PHONY : src/physics.c.o
+
+src/physics.i: src/physics.c.i
+.PHONY : src/physics.i
+
+# target to preprocess a source file
+src/physics.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/physics.c.i
+.PHONY : src/physics.c.i
+
+src/physics.s: src/physics.c.s
+.PHONY : src/physics.s
+
+# target to generate assembly for a file
+src/physics.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/physics.c.s
+.PHONY : src/physics.c.s
+
+src/renderer.o: src/renderer.c.o
+.PHONY : src/renderer.o
+
+# target to build an object file
+src/renderer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/renderer.c.o
+.PHONY : src/renderer.c.o
+
+src/renderer.i: src/renderer.c.i
+.PHONY : src/renderer.i
+
+# target to preprocess a source file
+src/renderer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/renderer.c.i
+.PHONY : src/renderer.c.i
+
+src/renderer.s: src/renderer.c.s
+.PHONY : src/renderer.s
+
+# target to generate assembly for a file
+src/renderer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/renderer.c.s
+.PHONY : src/renderer.c.s
+
+src/utils.o: src/utils.c.o
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/utils.c.o
+.PHONY : src/utils.c.o
+
+src/utils.i: src/utils.c.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/utils.c.i
+.PHONY : src/utils.c.i
+
+src/utils.s: src/utils.c.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pongkong.dir/build.make CMakeFiles/pongkong.dir/src/utils.c.s
+.PHONY : src/utils.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,6 +381,12 @@ help:
 	@echo "... src/draw.o"
 	@echo "... src/draw.i"
 	@echo "... src/draw.s"
+	@echo "... src/entity.o"
+	@echo "... src/entity.i"
+	@echo "... src/entity.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
 	@echo "... src/init.o"
 	@echo "... src/init.i"
 	@echo "... src/init.s"
@@ -273,6 +399,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/physics.o"
+	@echo "... src/physics.i"
+	@echo "... src/physics.s"
+	@echo "... src/renderer.o"
+	@echo "... src/renderer.i"
+	@echo "... src/renderer.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 .PHONY : help
 
 

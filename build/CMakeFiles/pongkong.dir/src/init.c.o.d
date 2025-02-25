@@ -1,6 +1,6 @@
 CMakeFiles/pongkong.dir/src/init.c.o: \
-  /home/alireza/Documents/cLangPractice/games/pongkong/src/init.c \
-  /home/alireza/Documents/cLangPractice/games/pongkong/include/common.h \
+  /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.c \
+  /home/alireza/Documents/cLangPractice/myGames/pongkong/src/common.h \
   /usr/local/include/SDL2/SDL.h /usr/local/include/SDL2/SDL_main.h \
   /usr/local/include/SDL2/SDL_stdinc.h \
   /usr/local/include/SDL2/SDL_config.h \
@@ -181,6 +181,6 @@ CMakeFiles/pongkong.dir/src/init.c.o: \
   /usr/include/time.h /usr/include/bits/time.h \
   /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/struct_itimerspec.h \
-  /home/alireza/Documents/cLangPractice/games/pongkong/include/defs.h \
-  /home/alireza/Documents/cLangPractice/games/pongkong/include/structs.h \
-  /home/alireza/Documents/cLangPractice/games/pongkong/include/init.h
+  /home/alireza/Documents/cLangPractice/myGames/pongkong/src/defs.h \
+  /home/alireza/Documents/cLangPractice/myGames/pongkong/src/structs.h \
+  /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.h

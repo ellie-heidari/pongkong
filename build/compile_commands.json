@@ -1,27 +1,52 @@
 [
 {
-  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
-  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/draw.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c",
-  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c"
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/draw.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/draw.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/draw.c"
 },
 {
-  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
-  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/init.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/init.c",
-  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/init.c"
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/entity.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/entity.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/entity.c"
 },
 {
-  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
-  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/init_objs.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c",
-  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c"
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/game.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/game.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/game.c"
 },
 {
-  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
-  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/input.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/input.c",
-  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/input.c"
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/init.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.c"
 },
 {
-  "directory": "/home/alireza/Documents/cLangPractice/games/pongkong/build",
-  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/games/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/main.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/main.c",
-  "file": "/home/alireza/Documents/cLangPractice/games/pongkong/src/main.c"
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/init_objs.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init_objs.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/init_objs.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/input.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/input.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/input.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/main.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/main.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/main.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/physics.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/physics.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/physics.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/renderer.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/renderer.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/renderer.c"
+},
+{
+  "directory": "/home/alireza/Documents/cLangPractice/myGames/pongkong/build",
+  "command": "/usr/bin/cc  -I/home/alireza/Documents/cLangPractice/myGames/pongkong/include -isystem /usr/local/include/SDL2 -std=gnu11 -o CMakeFiles/pongkong.dir/src/utils.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/utils.c",
+  "file": "/home/alireza/Documents/cLangPractice/myGames/pongkong/src/utils.c"
 }
 ]

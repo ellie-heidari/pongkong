@@ -53,10 +53,10 @@ RM = /home/alireza/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alireza/Documents/cLangPractice/games/pongkong
+CMAKE_SOURCE_DIR = /home/alireza/Documents/cLangPractice/myGames/pongkong
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alireza/Documents/cLangPractice/games/pongkong/build
+CMAKE_BINARY_DIR = /home/alireza/Documents/cLangPractice/myGames/pongkong/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pongkong.dir/depend.make
@@ -70,95 +70,175 @@ include CMakeFiles/pongkong.dir/progress.make
 include CMakeFiles/pongkong.dir/flags.make
 
 CMakeFiles/pongkong.dir/src/draw.c.o: CMakeFiles/pongkong.dir/flags.make
-CMakeFiles/pongkong.dir/src/draw.c.o: /home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c
+CMakeFiles/pongkong.dir/src/draw.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/draw.c
 CMakeFiles/pongkong.dir/src/draw.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pongkong.dir/src/draw.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/draw.c.o -MF CMakeFiles/pongkong.dir/src/draw.c.o.d -o CMakeFiles/pongkong.dir/src/draw.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pongkong.dir/src/draw.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/draw.c.o -MF CMakeFiles/pongkong.dir/src/draw.c.o.d -o CMakeFiles/pongkong.dir/src/draw.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/draw.c
 
 CMakeFiles/pongkong.dir/src/draw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/draw.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c > CMakeFiles/pongkong.dir/src/draw.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/draw.c > CMakeFiles/pongkong.dir/src/draw.c.i
 
 CMakeFiles/pongkong.dir/src/draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/draw.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/games/pongkong/src/draw.c -o CMakeFiles/pongkong.dir/src/draw.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/draw.c -o CMakeFiles/pongkong.dir/src/draw.c.s
+
+CMakeFiles/pongkong.dir/src/entity.c.o: CMakeFiles/pongkong.dir/flags.make
+CMakeFiles/pongkong.dir/src/entity.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/entity.c
+CMakeFiles/pongkong.dir/src/entity.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pongkong.dir/src/entity.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/entity.c.o -MF CMakeFiles/pongkong.dir/src/entity.c.o.d -o CMakeFiles/pongkong.dir/src/entity.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/entity.c
+
+CMakeFiles/pongkong.dir/src/entity.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/entity.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/entity.c > CMakeFiles/pongkong.dir/src/entity.c.i
+
+CMakeFiles/pongkong.dir/src/entity.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/entity.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/entity.c -o CMakeFiles/pongkong.dir/src/entity.c.s
+
+CMakeFiles/pongkong.dir/src/game.c.o: CMakeFiles/pongkong.dir/flags.make
+CMakeFiles/pongkong.dir/src/game.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/game.c
+CMakeFiles/pongkong.dir/src/game.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pongkong.dir/src/game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/game.c.o -MF CMakeFiles/pongkong.dir/src/game.c.o.d -o CMakeFiles/pongkong.dir/src/game.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/game.c
+
+CMakeFiles/pongkong.dir/src/game.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/game.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/game.c > CMakeFiles/pongkong.dir/src/game.c.i
+
+CMakeFiles/pongkong.dir/src/game.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/game.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/game.c -o CMakeFiles/pongkong.dir/src/game.c.s
 
 CMakeFiles/pongkong.dir/src/init.c.o: CMakeFiles/pongkong.dir/flags.make
-CMakeFiles/pongkong.dir/src/init.c.o: /home/alireza/Documents/cLangPractice/games/pongkong/src/init.c
+CMakeFiles/pongkong.dir/src/init.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.c
 CMakeFiles/pongkong.dir/src/init.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pongkong.dir/src/init.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/init.c.o -MF CMakeFiles/pongkong.dir/src/init.c.o.d -o CMakeFiles/pongkong.dir/src/init.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pongkong.dir/src/init.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/init.c.o -MF CMakeFiles/pongkong.dir/src/init.c.o.d -o CMakeFiles/pongkong.dir/src/init.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.c
 
 CMakeFiles/pongkong.dir/src/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/init.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/games/pongkong/src/init.c > CMakeFiles/pongkong.dir/src/init.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.c > CMakeFiles/pongkong.dir/src/init.c.i
 
 CMakeFiles/pongkong.dir/src/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/init.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/games/pongkong/src/init.c -o CMakeFiles/pongkong.dir/src/init.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init.c -o CMakeFiles/pongkong.dir/src/init.c.s
 
 CMakeFiles/pongkong.dir/src/init_objs.c.o: CMakeFiles/pongkong.dir/flags.make
-CMakeFiles/pongkong.dir/src/init_objs.c.o: /home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c
+CMakeFiles/pongkong.dir/src/init_objs.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init_objs.c
 CMakeFiles/pongkong.dir/src/init_objs.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pongkong.dir/src/init_objs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/init_objs.c.o -MF CMakeFiles/pongkong.dir/src/init_objs.c.o.d -o CMakeFiles/pongkong.dir/src/init_objs.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pongkong.dir/src/init_objs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/init_objs.c.o -MF CMakeFiles/pongkong.dir/src/init_objs.c.o.d -o CMakeFiles/pongkong.dir/src/init_objs.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init_objs.c
 
 CMakeFiles/pongkong.dir/src/init_objs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/init_objs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c > CMakeFiles/pongkong.dir/src/init_objs.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init_objs.c > CMakeFiles/pongkong.dir/src/init_objs.c.i
 
 CMakeFiles/pongkong.dir/src/init_objs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/init_objs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/games/pongkong/src/init_objs.c -o CMakeFiles/pongkong.dir/src/init_objs.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/init_objs.c -o CMakeFiles/pongkong.dir/src/init_objs.c.s
 
 CMakeFiles/pongkong.dir/src/input.c.o: CMakeFiles/pongkong.dir/flags.make
-CMakeFiles/pongkong.dir/src/input.c.o: /home/alireza/Documents/cLangPractice/games/pongkong/src/input.c
+CMakeFiles/pongkong.dir/src/input.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/input.c
 CMakeFiles/pongkong.dir/src/input.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pongkong.dir/src/input.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/input.c.o -MF CMakeFiles/pongkong.dir/src/input.c.o.d -o CMakeFiles/pongkong.dir/src/input.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pongkong.dir/src/input.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/input.c.o -MF CMakeFiles/pongkong.dir/src/input.c.o.d -o CMakeFiles/pongkong.dir/src/input.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/input.c
 
 CMakeFiles/pongkong.dir/src/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/input.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/games/pongkong/src/input.c > CMakeFiles/pongkong.dir/src/input.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/input.c > CMakeFiles/pongkong.dir/src/input.c.i
 
 CMakeFiles/pongkong.dir/src/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/input.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/games/pongkong/src/input.c -o CMakeFiles/pongkong.dir/src/input.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/input.c -o CMakeFiles/pongkong.dir/src/input.c.s
 
 CMakeFiles/pongkong.dir/src/main.c.o: CMakeFiles/pongkong.dir/flags.make
-CMakeFiles/pongkong.dir/src/main.c.o: /home/alireza/Documents/cLangPractice/games/pongkong/src/main.c
+CMakeFiles/pongkong.dir/src/main.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/main.c
 CMakeFiles/pongkong.dir/src/main.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pongkong.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/main.c.o -MF CMakeFiles/pongkong.dir/src/main.c.o.d -o CMakeFiles/pongkong.dir/src/main.c.o -c /home/alireza/Documents/cLangPractice/games/pongkong/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pongkong.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/main.c.o -MF CMakeFiles/pongkong.dir/src/main.c.o.d -o CMakeFiles/pongkong.dir/src/main.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/main.c
 
 CMakeFiles/pongkong.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/games/pongkong/src/main.c > CMakeFiles/pongkong.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/main.c > CMakeFiles/pongkong.dir/src/main.c.i
 
 CMakeFiles/pongkong.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/games/pongkong/src/main.c -o CMakeFiles/pongkong.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/main.c -o CMakeFiles/pongkong.dir/src/main.c.s
+
+CMakeFiles/pongkong.dir/src/physics.c.o: CMakeFiles/pongkong.dir/flags.make
+CMakeFiles/pongkong.dir/src/physics.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/physics.c
+CMakeFiles/pongkong.dir/src/physics.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pongkong.dir/src/physics.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/physics.c.o -MF CMakeFiles/pongkong.dir/src/physics.c.o.d -o CMakeFiles/pongkong.dir/src/physics.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/physics.c
+
+CMakeFiles/pongkong.dir/src/physics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/physics.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/physics.c > CMakeFiles/pongkong.dir/src/physics.c.i
+
+CMakeFiles/pongkong.dir/src/physics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/physics.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/physics.c -o CMakeFiles/pongkong.dir/src/physics.c.s
+
+CMakeFiles/pongkong.dir/src/renderer.c.o: CMakeFiles/pongkong.dir/flags.make
+CMakeFiles/pongkong.dir/src/renderer.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/renderer.c
+CMakeFiles/pongkong.dir/src/renderer.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pongkong.dir/src/renderer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/renderer.c.o -MF CMakeFiles/pongkong.dir/src/renderer.c.o.d -o CMakeFiles/pongkong.dir/src/renderer.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/renderer.c
+
+CMakeFiles/pongkong.dir/src/renderer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/renderer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/renderer.c > CMakeFiles/pongkong.dir/src/renderer.c.i
+
+CMakeFiles/pongkong.dir/src/renderer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/renderer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/renderer.c -o CMakeFiles/pongkong.dir/src/renderer.c.s
+
+CMakeFiles/pongkong.dir/src/utils.c.o: CMakeFiles/pongkong.dir/flags.make
+CMakeFiles/pongkong.dir/src/utils.c.o: /home/alireza/Documents/cLangPractice/myGames/pongkong/src/utils.c
+CMakeFiles/pongkong.dir/src/utils.c.o: CMakeFiles/pongkong.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pongkong.dir/src/utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pongkong.dir/src/utils.c.o -MF CMakeFiles/pongkong.dir/src/utils.c.o.d -o CMakeFiles/pongkong.dir/src/utils.c.o -c /home/alireza/Documents/cLangPractice/myGames/pongkong/src/utils.c
+
+CMakeFiles/pongkong.dir/src/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pongkong.dir/src/utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alireza/Documents/cLangPractice/myGames/pongkong/src/utils.c > CMakeFiles/pongkong.dir/src/utils.c.i
+
+CMakeFiles/pongkong.dir/src/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pongkong.dir/src/utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alireza/Documents/cLangPractice/myGames/pongkong/src/utils.c -o CMakeFiles/pongkong.dir/src/utils.c.s
 
 # Object files for target pongkong
 pongkong_OBJECTS = \
 "CMakeFiles/pongkong.dir/src/draw.c.o" \
+"CMakeFiles/pongkong.dir/src/entity.c.o" \
+"CMakeFiles/pongkong.dir/src/game.c.o" \
 "CMakeFiles/pongkong.dir/src/init.c.o" \
 "CMakeFiles/pongkong.dir/src/init_objs.c.o" \
 "CMakeFiles/pongkong.dir/src/input.c.o" \
-"CMakeFiles/pongkong.dir/src/main.c.o"
+"CMakeFiles/pongkong.dir/src/main.c.o" \
+"CMakeFiles/pongkong.dir/src/physics.c.o" \
+"CMakeFiles/pongkong.dir/src/renderer.c.o" \
+"CMakeFiles/pongkong.dir/src/utils.c.o"
 
 # External object files for target pongkong
 pongkong_EXTERNAL_OBJECTS =
 
 pongkong: CMakeFiles/pongkong.dir/src/draw.c.o
+pongkong: CMakeFiles/pongkong.dir/src/entity.c.o
+pongkong: CMakeFiles/pongkong.dir/src/game.c.o
 pongkong: CMakeFiles/pongkong.dir/src/init.c.o
 pongkong: CMakeFiles/pongkong.dir/src/init_objs.c.o
 pongkong: CMakeFiles/pongkong.dir/src/input.c.o
 pongkong: CMakeFiles/pongkong.dir/src/main.c.o
+pongkong: CMakeFiles/pongkong.dir/src/physics.c.o
+pongkong: CMakeFiles/pongkong.dir/src/renderer.c.o
+pongkong: CMakeFiles/pongkong.dir/src/utils.c.o
 pongkong: CMakeFiles/pongkong.dir/build.make
 pongkong: /usr/local/lib/libSDL2.so
 pongkong: CMakeFiles/pongkong.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable pongkong"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable pongkong"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pongkong.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +250,6 @@ CMakeFiles/pongkong.dir/clean:
 .PHONY : CMakeFiles/pongkong.dir/clean
 
 CMakeFiles/pongkong.dir/depend:
-	cd /home/alireza/Documents/cLangPractice/games/pongkong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alireza/Documents/cLangPractice/games/pongkong /home/alireza/Documents/cLangPractice/games/pongkong /home/alireza/Documents/cLangPractice/games/pongkong/build /home/alireza/Documents/cLangPractice/games/pongkong/build /home/alireza/Documents/cLangPractice/games/pongkong/build/CMakeFiles/pongkong.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alireza/Documents/cLangPractice/myGames/pongkong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alireza/Documents/cLangPractice/myGames/pongkong /home/alireza/Documents/cLangPractice/myGames/pongkong /home/alireza/Documents/cLangPractice/myGames/pongkong/build /home/alireza/Documents/cLangPractice/myGames/pongkong/build /home/alireza/Documents/cLangPractice/myGames/pongkong/build/CMakeFiles/pongkong.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pongkong.dir/depend
 
